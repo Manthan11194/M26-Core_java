@@ -17,7 +17,7 @@ public class Third_mul_program {
 		
 		int num2=obj.nextInt();
 
-		int mul=num1+num2; System.out.println("Sum of two Numbers-->"+mul);
+		int mul=num1*num2; System.out.println("Sum of two Numbers-->"+mul);
 
 
 	}

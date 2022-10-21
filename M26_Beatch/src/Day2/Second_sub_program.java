@@ -18,7 +18,7 @@ public class Second_sub_program {
 			
 			int num2=obj.nextInt();
 
-			int sub=num1*num2; System.out.println("Sum of two Numbers-->"+sub);
+			int sub=num1-num2; System.out.println("Sum of two Numbers-->"+sub);
 
 		}
 
