@@ -1,7 +1,7 @@
 package Day9;
 
-
-public class StaticDemo {
+public class StaticDemo 
+{
 	String name; //object bound
 	int rollno;
  	static String coll="ABC uni";//class bound 
@@ -17,17 +17,18 @@ public class StaticDemo {
 		coll="xyz uni";
 	}
 	
-	public StasticDemo (String name, int rollno)
+	public  StaticDemo (String name, int rollno)
 	{
 		super();
 		this.name = name;
 		this.rollno = rollno;
 	}
 
-	public static void main(String[] args) {
-		StaticDemo s1=new StaticDemo("Manthan",1);
-		StaticDemo s1=new StaticDemo("rohan",2);
-		StaticDemo s1=new StaticDemo("mohan",3);
+	public static void main(String[] args) 
+	{
+		StaticDemo s1=new StaticDemo("Kamlesh",1);
+		StaticDemo s2=new StaticDemo("Rocky",2);
+		StaticDemo s3=new StaticDemo("Tonny",3);
 		modify();
 		s1.display();
 		s2.display();

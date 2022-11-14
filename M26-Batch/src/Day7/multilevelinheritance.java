@@ -1,10 +1,29 @@
+
 package Day7;
 
-public class multilevelinheritance {
+public class multilevelinheritance{
+	  public static void main(String[] args) {
+		    Son s1 = new Son();
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		  }
+		}
 
-	}
+class GrandFather {
+  GrandFather() {
+    System.out.println("I am the grandfather!");
+  }
+}
 
+class Father extends GrandFather {
+  String familyName;
+  String houseaddress;
+  Father() {
+    System.out.println("I am the father! I inherit from Grandfather");
+  }
+}
+public class Son extends Father {
+
+  Son() {
+    System.out.println("I am the son and I inherit from my father.");
+  }
 }
