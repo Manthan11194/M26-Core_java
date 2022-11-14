@@ -26,9 +26,9 @@ public class StaticDemo
 
 	public static void main(String[] args) 
 	{
-		StaticDemo s1=new StaticDemo("Kamlesh",1);
-		StaticDemo s2=new StaticDemo("Rocky",2);
-		StaticDemo s3=new StaticDemo("Tonny",3);
+		StaticDemo s1=new StaticDemo("Manthan",1);
+		StaticDemo s2=new StaticDemo("Ram",2);
+		StaticDemo s3=new StaticDemo("Sham",3);
 		modify();
 		s1.display();
 		s2.display();
