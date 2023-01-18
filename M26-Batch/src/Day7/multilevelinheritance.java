@@ -2,28 +2,46 @@
 package Day7;
 
 public class multilevelinheritance{
-	  public static void main(String[] args) {
-		    Son s1 = new Son();
+	class Vehicle
+	{
+		private String name="Car";
+		//if this method is private we can't access into another class
+		public void display()
+		{
+			System.out.println(name);
+		}
+	}
+	//Child Class For Vehicle
+	class BMW extends Vehicle
+	{
+		private  String name1="BMW";
+		public void display1()
+		{
+			System.out.println(name1);
+		}
+		
+	}
+	//Child Class For BMW
+	class Tyre extends BMW
+	{
+		private String tyrename="BridgeStone";
+		public void display2()
+		{
+			System.out.println(tyrename);
+		}
+		
+	}
+	public class MultiLevelInheritance {
 
-		  }
+		public void main(String[] args) {
+			Tyre t=new Tyre();
+			t.display();
+			t.display1();
+			t.display2();
+			
+			
+
 		}
 
-class GrandFather {
-  GrandFather() {
-    System.out.println("I am the grandfather!");
-  }
-}
-
-class Father extends GrandFather {
-  String familyName;
-  String houseaddress;
-  Father() {
-    System.out.println("I am the father! I inherit from Grandfather");
-  }
-}
-public class Son extends Father {
-
-  Son() {
-    System.out.println("I am the son and I inherit from my father.");
-  }
+	}
 }
