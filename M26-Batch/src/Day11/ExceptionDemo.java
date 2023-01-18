@@ -7,7 +7,7 @@ public class ExceptionDemo {
 	System.out.println("i am begining of the program");
 	
 	try {
-		
+			
 		System.out.println(arr[4]);
 		System.out.println("i am inside try block");
 		}
