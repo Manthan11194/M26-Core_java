@@ -9,6 +9,8 @@
 	<classpathentry kind="src" path="ASSIGNMENT - 1"/>
 	<classpathentry kind="src" path="ASSIGNMENT-2_String,StringBuffer,StringBuilderAndStringTokenizer"/>
 	<classpathentry kind="src" path="ASSIGNMENT-3_Array"/>
+	<classpathentry kind="src" path="Day26"/>
+	<classpathentry kind="src" path="tnsindia"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
